@@ -5,15 +5,9 @@ app = Flask(__name__)
 @app.route("/")
 def moby():
 	particpants = (
-		'malte',
-		'hien',
 		'marc',
-		'tino',
 		'sascha',
-		'janis',
 		'willi',
-		'fabian',
-		'michael',
 	)
 
 	return random.choice(particpants)
